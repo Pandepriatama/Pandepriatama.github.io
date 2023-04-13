@@ -1,0 +1,109 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Panduan Warna Web */
+:root {
+  --main-color: #000000;
+  --second-color: #ff227b;
+  --text-color: #ff227b;
+  --bg-color: #fff;
+
+  /* Box Shadow */
+  --box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
+}
+
+/* CSS Gambar Background */
+section {
+  padding: 50px 100px;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  color: var(--text-color);
+}
+
+/* CSS Background Atas */
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: url(img/backgroundatas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* CSS Tulisan Kiri Background Atas */
+.home-text h1 {
+  font-size: 3.4rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* CSS Menu Kembali */
+.home-text p {
+  font-size: 0.938rem;
+  color: var(--text-color);
+  margin: 0.5rem 0 1.4rem;
+  
+}
+
+.btn {
+  padding: 10px 40px;
+  border-radius: 0.3rem;
+  background: var(--main-color);
+  color: var(--bg-color);
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: var(--text-color);
+}
+
+/* CSS Tentang Kami */
+.tentangkami {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  gap: 1.5rem;
+}
+
+.tentangkami-img img {
+  border-radius: 0.5rem;
+}
+
+.tentangkami-text h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.tentangkami-text p {
+  font-size: 0.938rem;
+  margin: 0.5rem 0 1.1rem;
+}
+
+
+
+
+
+
+
+  
+
